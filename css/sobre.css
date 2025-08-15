@@ -1,0 +1,178 @@
+/* css/sobre.css */
+
+/* Container principal com gradiente */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, 
+        #E6E8DC 0%,   
+        #C8D5B9 25%,  
+        #A9CBB7 50%,
+        #8DB19C 75%, 
+        #7A9B83 100%
+    );
+}
+
+/* Estilo do logo e cabeçalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+a {
+    text-decoration: none;
+    color: #333; 
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+ 
+h1{
+    color: #333;
+    margin: 10px;
+}
+/*estilo de botao de voltar*/
+
+.botao-volta {
+    background-color: #7A9B83;
+    color: white;
+    border: 2px solid #6a8f76;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+.botao-volta:hover {
+    background-color: #6a8f76;
+
+}
+/*estilo da main8*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  80px 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+    gap: 20px; /* espaçamento entre colunas e linhas */
+    max-width: 1000px; /* largura máxima do grid */
+    margin: 20 auto; /* centraliza o grid na página */
+    
+}
+
+.quadradro {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Faz o "Objetivo" ocupar as duas colunas */
+.objetivo {
+    grid-column: span 2;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: x-large;
+}
+.quadradro, .objetivo {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.quadradro:hover, .objetivo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Estilo do footer */
+footer {
+    width: 100%;
+    background: linear-gradient(135deg, #A9CBB7, #7A9B83);
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilo dos links do footer */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #2f4f4f;
+    margin-bottom: 10px;
+}
+p, li {
+    font-size: 1rem;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    padding-left: 25px;
+    position: relative;
+}
+ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #7A9B83;
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* empurra o footer para baixo */
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* vira uma coluna */
+    }
+    .objetivo {
+        grid-column: span 1; /* ocupa apenas uma coluna */
+    }
+}
