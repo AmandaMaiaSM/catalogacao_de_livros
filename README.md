@@ -4,7 +4,6 @@
 ## 1. Objetivo do Projeto
 Criar um site para catalogar livros que você deseja ler e que já leu, permitindo **adicionar**, **editar** e **visualizar** informações sobre cada livro.
 
----
 
 ## 2. 🛠 Funcionalidades Principais
 
@@ -23,7 +22,7 @@ Criar um site para catalogar livros que você deseja ler e que já leu, permitin
 - Conectar à **API do Google Books** para preencher dados automaticamente
 - Criar gráficos (quantos livros por mês, gêneros mais lidos)
 
----
+
 
 ## 3. Estrutura das Informações (Modelo de Dados)
 
@@ -42,7 +41,7 @@ Cada livro será representado por um objeto com o seguinte formato:
 }
 ````
 
----
+
 
 ## 4.  Tecnologias
 
