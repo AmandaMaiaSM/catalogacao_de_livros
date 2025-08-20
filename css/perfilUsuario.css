@@ -1,0 +1,199 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #C8D5B9;
+    min-height: 100vh;
+}
+
+/* Estilo para o título do cabeçalho */
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7A9B83;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;   /* margem à esquerda */
+    margin-right: 20px;  /* margem à direita */
+    margin-top: 10px;    /* margem superior */
+}
+.cabecalhotexto {
+    flex: 1;               /* ocupa espaço entre logo e botão */
+    text-align: flex-start; 
+    color: black;
+    font-size: 24px;
+    margin: 10px;
+}
+header{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/*estilo de tags*/
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+/*estulo do botoes*/
+.botaoSAir{
+    background-color: #8DB19C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.botaoperfilUsu{
+   color: #333;
+    background-color: #E6E8DC;
+    padding: 3px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.botaoSAir:hover {
+    background-color: #C8D5B9;
+    color: #333;
+}
+.botaomenu{
+    
+    color: white;
+    background-color: #7A9B83;
+    padding: 3px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.botaomenu:hover {
+    background: linear-gradient(to right, #E6E8DC, #7A9B83);
+    color: #333;
+}
+
+/*estilo de menu*/
+nav ul{
+    display: flex;
+    flex-direction: row; /* ou apenas remova, pois row é o padrão */
+    gap: 5px; /* espaço entre os links, opcional */
+    color: #333;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px ;
+    margin-right: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Conteudo do main */
+main{
+    display: flex;
+    flex-direction: column;   
+    background-color:#E6E8DC;
+    border-radius: 20px;
+    margin-left: 20px;   /* margem à esquerda */
+    margin-right: 20px;  /* margem à direita */     
+    margin-top: 3px; /* margem superior */
+    padding: 20px  20px;
+    
+    
+}
+
+/*.InformacoesDoUsuario{}*/
+.card-Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start; /* colunas grudadas à esquerda */   /* linhas grudadas no topo */
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.card-Grid-estilo {
+    background-color: #C8D5B9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+}
+
+
+
+.cardflex{
+    background-color: #C8D5B9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.cardUser h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.cardUser p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.form-button {
+   background-color: #8DB19C;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+    align-self: center;
+}
+
+form button:hover {
+    background-color: #52734D;
+}
+
+li{
+    list-style: none;
+}

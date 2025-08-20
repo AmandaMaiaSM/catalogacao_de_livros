@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil usuários</title>
+    <link rel="stylesheet" href="../css/perfilUsuario.css">
+</head>
+<body class="container">
+    
+      <!-- Cabeçalho -->
+    <header id="cabecalho">
+        <div class="logo">
+        <img  src="../assets/icons/livros-dispostos-verticalmente.png" alt="Logo do site" width="50" height="50"> 
+        </div>
+        <h1 class="cabecalhotexto">Catalogação de livros</h1>
+        <nav >
+        <a  href="../index.html" class="botaoSAir">Sair</a>
+        </nav>
+
+    </header>
+        <!-- Menu de navegação -->
+    <div >
+        <nav class="menuNavegacao " >
+            <ul>
+                <li><a href="../pages/pag_Inicial.html" class="botaomenu">Página inicial</a></li>
+                <li><a href="../pages/perfilUsuario.htm"  class="botaoperfilUsu">Perfil do Usuário</a></li>
+                <li><a href="../pages/livrosLidos.html" class="botaomenu">Livros Lidos</a></li>
+                <li><a href="../pages/listaDesejados.html" class="botaomenu">Lista de Desejados</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="InformacoesDoUsuario">
+        <div class="card-Grid">
+            <div class="card-Grid-estilo">
+                <section class="cardUser">
+                    <form action="#" method="post" enctype="multipart/form-data" >
+                        <input type="file" id="foto" name = "foto" accept="image/*" hidden>
+                        <label for="foto">
+                            <img src="../assets/icons/icons8-fazer-upload-24.png" alt="Salvar" width="24" height="24">
+                            Enviar foto do Usuário
+                        </label>
+                        
+                        <button type="submit" class="form-button" style="align-items: center;">Salvar</button>
+                    </form>
+                </section>
+            </div>
+        
+            <div class="">
+                <section class="cardUser">
+                    <p><strong>Nome:</strong> <span id="nomeUsuario">Carregando...</span></p>
+                    <p><strong>Email:</strong> <span id="emailUsuario">Carregando...</span></p>
+                    <p><strong>Membro desde:</strong> <span id="statusUsuario">Carregando...</span></p>
+                    <button id="editarPerfil"  class="form-button">Editar Perfil</button>
+
+                </section>
+            </div>
+
+        </div>
+
+        <div class="cardflex">
+            <!-- Atividades de leitura -->
+            <section   >
+                <h2>Atividades de Leitura</h2>
+                <ul>
+                    <li>Livros lidos: <span id="livrosLidos">0</span></li>
+                    <li>Livros desejados: <span id="livrosDesejados">0</span></li>
+                    <li>Último livro adicionado: <span id="ultimoLivro">Nenhum</span></li>
+                </ul>
+            </section>
+            
+        </div>
+
+        <div>
+            <!-- Configurações -->
+            <section class="cardflex">
+                <h2>Configurações</h2>
+                <button id="alterarSenha" class="form-button">Alterar senha</button>
+                <button id="excluirConta" class="form-button">Excluir conta</button>
+            </section>
+        </div>
+
+    </main>
+    
+
+    
+</body>
+</html>

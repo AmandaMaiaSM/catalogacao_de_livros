@@ -1,0 +1,87 @@
+/* Estilo para o container principal do formulário */
+.main-content-form {
+
+    background-color: #E6E8DC;
+    border-radius: 20px;
+    margin: 3px 20px 20px 20px;
+    padding: 40px 20px;
+    /* Configura o contêiner para usar Flexbox em coluna */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.centralizaelementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - var(--header-height));
+   
+}
+
+/* Estilo para o card do formulário */
+.form-card {
+    background-color: #C8D5B9;
+    
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Estilo para cada grupo de campo (label + input) */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7A9B83;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* Garante que padding e border não alterem a largura */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionamento vertical */
+}
+
+/* Estilo para o botão de envio */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #8DB19C;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #52734D;
+}

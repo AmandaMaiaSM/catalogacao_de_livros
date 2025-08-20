@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial - Catálogo de Livros</title>
+  <link rel="stylesheet" href="../css/pag_Inicial.css">
+</head>
+
+<body class="container">
+
+  <!-- Cabeçalho -->
+  <header id="cabecalho">
+    <div class="logo">
+      <img  src="../assets/icons/livros-dispostos-verticalmente.png" alt="Logo do site" width="50" height="50"> 
+    </div>
+     <h1 class="cabecalhotexto">Catalogação de livros</h1>
+    <nav >
+      <a  href="../index.html" class="botaoVoltar">Sair</a>
+    </nav>
+
+  </header>
+    <!-- Menu de navegação -->
+    <div >
+        <nav class="menuNavegacao " >
+            <ul>
+                <li><a href="../pages/pag_Inicial.html" class="botaoInicial">Página inicial</a></li>
+                <li><a href="../pages/perfilUsuario.htm" class="botaomenu">Perfil do Usuário</a></li>
+                <li><a href="../pages/livrosLidos.html" class="botaomenu">Livros Lidos</a></li>
+                <li><a href="../pages/listaDesejados.html" class="botaomenu">Lista de Desejados</a></li>
+            </ul>
+        </nav>
+     </div>
+
+  <!-- Conteúdo principal -->
+  <main class="conteudoGeral">
+    <section class="perfilUsuario">
+      <h2>Bem-vindo à sua página inicial!</h2>
+      <p>Aqui você pode gerenciar seus livros lidos e sua lista de desejados.</p>
+      <p>Use o menu para navegar entre as seções.</p>
+    </section>
+
+    <div class="livrosLidos_Desejados">
+      <div  class="card">
+        <section >
+          <h2>Livros lidos</h2>
+          <img src="../assets/icons/estude.png" alt="Lendo livro"  class="iconeCard" width="100" height="100">
+          <p>Adicione seus livros lidos aqui para acompanhar suas leituras.</p>
+        </section>
+         <a href="../pages/adicionarLivroLido.html" class="botao-card">Adicionar</a>
+      </div>
+      
+      <div class="card">
+         <section>
+          <h2>Lista de livros desejados</h2>
+          <img src="../assets/icons/bloco-de-anotacoes.png" class="iconeCard" alt="Nloco de antaçoes" width="100" height="100">
+          <p>Adicione à sua lista os livros que você deseja ler no futuro e mantenha organizado tudo o que pretende explorar.</p>
+        </section>
+        <a href="../pages/adicionarLivroDesejado.html" class="botao-card">Adicionar</a>
+      </div>
+    </div>
+    
+  </main>
+
+  
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Amanda Maia. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
