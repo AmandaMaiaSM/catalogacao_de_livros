@@ -67,4 +67,13 @@ Cada livro será representado por um objeto com o seguinte formato:
 <img width="1912" height="1096" alt="image" src="https://github.com/user-attachments/assets/f750bbdc-0de4-49a9-962f-bcbbd7aed420" />
 <img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/d87ed38f-5063-48f5-80bf-311091af2558" />
 <img width="1881" height="1025" alt="image" src="https://github.com/user-attachments/assets/5c63eb75-12c8-4e27-94db-417f07de5d5a" />
+<img width="1919" height="1089" alt="image" src="https://github.com/user-attachments/assets/8326cdb7-5471-440d-976d-8578360660de" />
+<img width="1919" height="1091" alt="image" src="https://github.com/user-attachments/assets/969223d6-920f-4f36-8aa2-e31f8685cf82" />
+<img width="1919" height="1087" alt="image" src="https://github.com/user-attachments/assets/4d78f9a5-15ba-49b7-8734-5a32b650b74e" />
+<img width="1919" height="1086" alt="image" src="https://github.com/user-attachments/assets/3dad93cf-890d-477d-93f8-80caa613d9a0" />
+
+
+
+
+
 
